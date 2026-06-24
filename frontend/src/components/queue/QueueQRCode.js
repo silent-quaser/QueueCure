@@ -3,9 +3,8 @@
 import { QRCodeCanvas } from "qrcode.react";
 
 export default function QueueQRCode() {
-  const queueUrl =
-  "http://10.10.239.187:3000/join-queue";
-
+ const queueUrl =
+"https://queue-cure-zeta.vercel.app/join-queue";
   return (
     <div className="card">
       <h2
